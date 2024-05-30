@@ -1,7 +1,6 @@
 package DesignPatterns.Behavioral.Strategy;
 
 public class Main {
-
     public static void main(String[] args) {
         Vehicle sportsVehicle = new SportsVehicle();
         Vehicle offRoadVehicle = new OffRoadVehicle();
@@ -10,5 +9,4 @@ public class Main {
         offRoadVehicle.drive();
         goodsVehicle.drive();
     }
-
 }
